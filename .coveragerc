@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/tinput
+   */site-packages/tinput
+
+[run]
+branch = true
+source =
+    tinput
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
